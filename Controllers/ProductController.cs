@@ -5,54 +5,62 @@ using Teste_MStar.Models;
 namespace Teste_MStar.Controllers
 {
     [ApiController]
- [Route("[controller]")]
+    [Route("[controller]")]
     public class ProductController : ControllerBase
     {
         private readonly MStarContext _context;
+
         public ProductController(MStarContext context)
         {
             _context = context;
         }
-       [HttpPost("CreateProduct")]
+
+        [HttpPost("CreateProduct")]
         public ActionResult CreateProduto(Products product)
         {
-            _context.Add(product);
-            _context.SaveChanges();
-            return  Ok(product);
+            try
+            {
+                var existingProduct = _context.Products.FirstOrDefault(p => p.NumeroRegistro == product.NumeroRegistro);
+                if (existingProduct != null)
+                    return BadRequest("Já existe um produto com o mesmo número de registro.");
+
+                _context.Add(product);
+                _context.SaveChanges();
+                return Ok(product);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Ocorreu um erro ao processar a solicitação: {ex.Message}");
+            }
         }
 
         [HttpGet("GetAllProducts")]
         public ActionResult GetAllProducts()
         {
             var productAll = _context.Products.ToList();
-            return  Ok(productAll);
+            return Ok(productAll);
         }
 
         [HttpGet("GetProductNumeroRegistro/{nrRegistro}")]
         public ActionResult GetProductsNumeroSerie(string nrRegistro)
         {
-             using (var transaction = _context.Database.BeginTransaction())
-             {
-                try
-                {
-                    var productExist = _context.Products.FirstOrDefault(x => x.NumeroRegistro.ToString() == nrRegistro);
-                    return Ok (productExist);
-                }
-                catch (Exception ex)
-                {
-                    transaction.Rollback();
-                    return StatusCode(500, $"Ocorreu um erro ao processar a solicitação: {ex.Message}");
-                }
-
-             }
+            try
+            {
+                var productExist = _context.Products.FirstOrDefault(x => x.NumeroRegistro.ToString() == nrRegistro);
+                return Ok(productExist);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Ocorreu um erro ao processar a solicitação: {ex.Message}");
+            }
         }
 
         [HttpPut("ProductIn/{nrRegistro}")]
         public ActionResult ProductIn(string nrRegistro, [FromBody] InPutLog inPutLog)
         {
-            using (var transaction = _context.Database.BeginTransaction())
+            try
             {
-                try
+                using (var transaction = _context.Database.BeginTransaction())
                 {
                     var productExist = _context.Products.FirstOrDefault(x => x.NumeroRegistro.ToString() == nrRegistro);
 
@@ -60,34 +68,28 @@ namespace Teste_MStar.Controllers
                         return NotFound("Produto não encontrado.");
 
                     var existingInPutLog = _context.InPutLog.FirstOrDefault(x => x.NumeroRegistro.ToString() == nrRegistro);
-                    if (existingInPutLog != null)
-                    {
-                        existingInPutLog.Local = inPutLog.Local;
-                        existingInPutLog.QtdProduct = inPutLog.QtdProduct;
-                    }
-                    else
-                    {
+                    if (existingInPutLog == null)
                         return NotFound("Registro InPutLog não encontrado.");
-                    }
+
+                    existingInPutLog.Local = inPutLog.Local;
+                    existingInPutLog.QtdProduct = inPutLog.QtdProduct;
 
                     productExist.QtdProduct += inPutLog.QtdProduct;
 
                     _context.SaveChanges();
-
                     transaction.Commit();
 
                     return Ok("Registro de entrada realizado com sucesso.");
                 }
-                catch (Exception ex)
-                {
-                    transaction.Rollback();
-                    return StatusCode(500, $"Ocorreu um erro ao processar a solicitação: {ex.Message}");
-                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Ocorreu um erro ao processar a solicitação: {ex.Message}");
             }
         }
 
-        [HttpPost("ProductOut/{nrRegistro}")]
-        public ActionResult ProductOut(string nrRegistro, OutPutLog outPutLog)
+        [HttpPut("ProductOut/{nrRegistro}")]
+        public ActionResult ProductOut(string nrRegistro, [FromBody] OutPutLog outPutLog)
         {
             try
             {
@@ -110,9 +112,7 @@ namespace Teste_MStar.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, $"Ocorreu um erro ao processar a solicitação: {ex.Message}");
-            }   
-        }   
-     }
+            }
+        }
+    }
 }
-
-
