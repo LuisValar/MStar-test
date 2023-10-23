@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WyTeqT1gGSFczu022VRqVyECs1IxDkt286WBKg5MIPH85xGRew8OW419kDz4T/sfG3QZq8kHRzWTCQ/cUdXtEg==",
+  "dgSpecHash": "Svk+8OhEImsfFoOymvKDEjf6stvw4Bs/caGuF7gVMxLCTF+D7iuaqzbt6Hwk84EV6Ut41YibiarsPCPDeceGzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisv\\Desktop\\Teste MStar\\Teste MStar.csproj",
+  "projectFilePath": "C:\\Users\\luisv\\OneDrive\\Área de Trabalho\\MStar teste\\MStar-test\\Teste MStar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisv\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\luisv\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

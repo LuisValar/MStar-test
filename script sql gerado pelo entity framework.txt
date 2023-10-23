@@ -1,0 +1,76 @@
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (379ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      CREATE DATABASE [MStar];
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (92ms) [Parameters=[], CommandType='Text', CommandTimeout='60']
+      IF SERVERPROPERTY('EngineEdition') <> 5
+      BEGIN
+          ALTER DATABASE [MStar] SET READ_COMMITTED_SNAPSHOT ON;
+      END;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [__EFMigrationsHistory] (
+          [MigrationId] nvarchar(150) NOT NULL,
+          [ProductVersion] nvarchar(32) NOT NULL,
+          CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [MigrationId], [ProductVersion]
+      FROM [__EFMigrationsHistory]
+      ORDER BY [MigrationId];
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20231023140120_CreateTableProduct'.
+Applying migration '20231023140120_CreateTableProduct'.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [Products] (
+          [Id] int NOT NULL IDENTITY,
+          [NumeroRegistro] int NOT NULL,
+          [Fabricante] nvarchar(max) NULL,
+          [Tipo] nvarchar(max) NULL,
+          [Descricao] nvarchar(max) NULL,
+          [QtdProduct] int NOT NULL,
+          CONSTRAINT [PK_Products] PRIMARY KEY ([Id])
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+      VALUES (N'20231023140120_CreateTableProduct', N'7.0.12');
+info: Microsoft.EntityFrameworkCore.Migrations[20402]
+      Applying migration '20231023143345_CreateTableLogInPutOutPut'.
+Applying migration '20231023143345_CreateTableLogInPutOutPut'.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [InPutLog] (
+          [Id] int NOT NULL IDENTITY,
+          [NumeroRegistro] int NOT NULL,
+          [QtdProduct] int NOT NULL,
+          [Local] nvarchar(max) NULL,
+          [Date] datetime2 NOT NULL,
+          CONSTRAINT [PK_InPutLog] PRIMARY KEY ([Id])
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE [OutPutLog] (
+          [Id] int NOT NULL IDENTITY,
+          [NumeroRegistro] int NOT NULL,
+          [QtdProduct] int NOT NULL,
+          [Local] nvarchar(max) NULL,
+          [Date] datetime2 NOT NULL,
+          CONSTRAINT [PK_OutPutLog] PRIMARY KEY ([Id])
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+      VALUES (N'20231023143345_CreateTableLogInPutOutPut', N'7.0.12');
+Done.

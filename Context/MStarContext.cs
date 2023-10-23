@@ -14,5 +14,7 @@ namespace Teste_MStar.Context
         }
 
         public DbSet<Products> Products { get; set; }
+        public DbSet<OutPutLog> OutPutLog { get; set; }
+        public DbSet<InPutLog> InPutLog { get; set; }
     }
 }

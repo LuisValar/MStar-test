@@ -31,3 +31,79 @@ C:\Users\luisv\Desktop\Teste MStar\obj\Debug\net7.0\refint\Teste MStar.dll
 C:\Users\luisv\Desktop\Teste MStar\obj\Debug\net7.0\Teste MStar.pdb
 C:\Users\luisv\Desktop\Teste MStar\obj\Debug\net7.0\Teste MStar.genruntimeconfig.cache
 C:\Users\luisv\Desktop\Teste MStar\obj\Debug\net7.0\ref\Teste MStar.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.csproj.AssemblyReference.cache
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.AssemblyInfoInputs.cache
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.AssemblyInfo.cs
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.csproj.CoreCompileInputs.cache
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\refint\Teste MStar.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.pdb
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\appsettings.json
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Teste MStar.exe
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Teste MStar.deps.json
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Teste MStar.runtimeconfig.json
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Teste MStar.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Teste MStar.pdb
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Humanizer.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\staticwebassets\msbuild.Teste MStar.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\staticwebassets\msbuild.build.Teste MStar.props
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Teste MStar.props
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Teste MStar.props
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\scopedcss\bundle\Teste MStar.styles.css
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.csproj.CopyComplete
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\Teste MStar.genruntimeconfig.cache
+C:\Users\luisv\OneDrive\Área de Trabalho\MStar teste\MStar-test\obj\Debug\net7.0\ref\Teste MStar.dll
